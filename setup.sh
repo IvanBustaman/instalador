@@ -54,7 +54,7 @@ instalar_cortex() {
 
 clear
 echo -e "${CYAN}=============================================${NC}"
-echo -e "${CYAN}   MDR LEGACY INSTALLER - IVAN BUSTAMAN      ${NC}"
+echo -e "${CYAN}        INSTALADOR DE THE HIVE Y CORTEX      ${NC}"
 echo -e "${CYAN}=============================================${NC}"
 echo ""
 echo "Seleccione qué desea instalar en este servidor:"
