@@ -71,7 +71,7 @@ instalar_misp() {
 
 clear
 echo -e "${CYAN}=============================================${NC}"
-echo -e "${CYAN}   MDR INSTALLER - IVAN BUSTAMAN             ${NC}"
+echo -e "${CYAN}         MENÚI DE INSTALACIÓN DE MDR         ${NC}"
 echo -e "${CYAN}=============================================${NC}"
 echo "Seleccione qué desea instalar en este servidor:"
 echo ""
@@ -125,4 +125,5 @@ fi
 if [ "$opcion" == "3" ]; then
     echo -e "🦠 Acceso MISP:    https://$(hostname -I | awk '{print $1}')"
 fi
+
 echo "------------------------------------------------"
